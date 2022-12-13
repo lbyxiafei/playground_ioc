@@ -4,6 +4,6 @@ namespace IoC.PizzaFactory
 {
     public interface IPizzaStore
     {
-        Pizza CreatePizza();
+        Pizza CreatePizza(string order);
     }
 }
